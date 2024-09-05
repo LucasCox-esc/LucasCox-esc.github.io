@@ -14,17 +14,15 @@ function App() {
       <div style={{ display: "flex", justifyContent: "center" }}>
         <div style={{ marginTop: "8%", display: 'flex', alignItems: "center", justifyContent: "center", border: "1px solid #bebebe", width: "80%", height: "400px", borderRadius: "13px", backgroundColor: "white" }}>
           <div style={{ fontSize: "35px", fontWeight: 'bold', color: "white", marginTop: "-460px" }} className='pi pi-user'></div>
-
         </div>
-  
       </div>
 
       <div>
-          <PaginaPrincipal/>
-        </div>
-
-
-
+        <PaginaPrincipal />
+      </div>
+      <footer style={{ backgroundColor: "#b81313", width: "100%", padding: "10px 0", textAlign: "center", color: "white", fontFamily: "'Times New Roman', serif", height:"50px", marginTop:"20px" }}>
+        <p style={{ margin: 0, fontSize: "1rem" }}>&copy; {new Date().getFullYear()} Técnicas de Estudio. Todos los derechos reservados.</p>
+      </footer>
     </div>
 
 
