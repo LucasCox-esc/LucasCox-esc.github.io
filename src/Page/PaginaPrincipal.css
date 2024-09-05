@@ -24,8 +24,9 @@
 }
 
 .imagen {
-    max-width: 100%;
-    height: auto;
+    width: 400px; /* Ajusta el tamaño según tus necesidades */
+    height: 300px; /* Ajusta el tamaño según tus necesidades */
+    object-fit: cover; /* Mantiene la proporción sin distorsionar la imagen */
     border-radius: 5px;
 }
 
