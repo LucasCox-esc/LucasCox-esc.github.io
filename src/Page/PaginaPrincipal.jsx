@@ -51,8 +51,16 @@ function PaginaPrincipal() {
                 <img src={p4} alt="Subrayado" className="imagen" />
             </div>
 
-             {/* Sección 3 */}
-             <div className="item item-left">
+            <div style={{ width: "56%", paddingLeft: "2%" }}>
+                <p style={{ color: "white", fontSize: "20px" }}>
+                    <strong style={{ marginBottom: "25px" }}>¿Tienes dudas? ¡Nuestro Chatbot te ayudará!</strong>
+                    <hr />
+                    Sabemos que cada estudiante es único, por eso hemos implementado un Chatbot interactivo que está disponible para resolver todas tus consultas sobre técnicas de estudio. Solo tienes que hacer tu pregunta, y el bot te brindará respuestas rápidas y útiles, guiándote en el proceso de aprendizaje de manera personalizada.
+                </p>
+            </div>
+
+            {/* Sección 3 */}
+            <div className="item item-left">
                 <img src={p5} alt="Cuadro Comparativo" className="imagen" />
                 <div className="texto-container">
                     <p className="texto">La Técnica Pomodoro es un método de gestión del tiempo que consiste en trabajar en intervalos de 25 minutos (llamados "pomodoros") separados por breves descansos, con el objetivo de mejorar la concentración, la productividad y la eficiencia en el trabajo o estudio.</p>
